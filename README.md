@@ -15,7 +15,7 @@ PSG音源YMZ294、MIDI in/out搭載。Arduinoがシンセになります。
    
 ### ソフトウェア
 - Arduino IDEベースです。
-- MIDIライブラリが必要です。MIDIライブラリは多種リリースされていますが、https://github.com/FortySevenEffects/arduino_midi_library　を使用しています。
+- MIDIライブラリが必要です。MIDIライブラリは多種リリースされていますが、https://github.com/FortySevenEffects/arduino_midi_library を使用しています。
 - サンプルコードは、MIDI入力されたMIDI信号に合わせて演奏します。MIDIチャンネルは10ch以外の1-16chのすべてのチャンネルを受信します。YMZ294は同時発音数は3音なので、先着3音まで発音し、note offメッセージを受信して、空きができたら、次に来たnote on信号を発音します。試してみるとわかりますが、普通のGM音源用のデータを食わせてもそれなりに聞けてしまいます。（もちろん変なところはありますが）
 #### スイッチの機能
 - SW1：MIDIパニック。note onのままで、note offが来ないとき（演奏中にMIDIケーブルを引き抜いてしまった等）、発音しっぱなしになりますが、このスイッチを押すと、すべての発音停止します。
