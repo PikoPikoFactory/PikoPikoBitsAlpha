@@ -1,9 +1,10 @@
 # PikoPikoBitsAlpha
-YMZ294 Chip Tune Synthesizer Shield for Arduino
+- YMZ294 Chip Tune Synthesizer Shield for Arduino
+- Piko Piko Bits Alpha は Arduino用 Chip Tuneシールド です。
+- PSG音源YMZ294、MIDI in/out搭載。Arduinoがシンセになります。
 
-Piko Piko Bits Alpha は Arduino用 Chip Tuneシールド です。
-PSG音源YMZ294、MIDI in/out搭載。Arduinoがシンセになります。
-   ![Photo](pikopikobits_t.JPG)
+
+![Photo](pikopikobits_t.JPG)
 
 ## ハードウェア
 - Arduno用シールドです。IOはほぼ使い切っています。A4,A5はDigitalOutとして使っていますが、I2Cとして拡張された側（回路図中P5）に接続されているために、Arduino Duemilanove 328のような古いArduinoでは使用できません。
