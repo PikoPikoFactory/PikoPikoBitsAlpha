@@ -30,4 +30,7 @@
 ##### VRの機能
 - サンプルコードでは使用していません。
    
+## 使用例
+- M5stack+MIDIインターフェスと接続し、MIDIファイルを再生して、PikoPikoBits Alphaで再生しています。MIDI-TRS変換には「かけはしMIDI」を使用しています。
+![Photo](sample.JPG)
    
