@@ -25,8 +25,12 @@
 - マスタクロックの違いは以下の部分を変更します。
 ```
 void SetFrequency(int ch, word freq) {
+.....
   //  cal_freqency = 125000 / freq; // for 4MHz
    cal_freqency = 111861 / freq; // for 3.58MHz
+.....
+}
+
 ```
 
 ##### スイッチの機能
